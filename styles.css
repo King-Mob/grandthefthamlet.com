@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  background-color: #141414;
+  color: #e7ebee;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 300;
+  width: fit-content;
+  text-align: center;
+}
+
+#trailer-before {
+  height: 20px;
+  width: 100%;
+  max-width: 1000px;
+  background-image: linear-gradient(0deg, black, #141414);
+}
+
+iframe {
+  width: 100%;
+  max-width: 1000px;
+  height: 60vw;
+  max-height: 600px;
+}
+
+#trailer-after {
+  height: 20px;
+  width: 100%;
+  max-width: 1000px;
+  background-image: linear-gradient(0deg, #141414, black);
+}
+
+h2,
+h3 {
+  font-family: "Poppins";
+  font-weight: 300;
+  width: fit-content;
+  text-align: center;
+}
+
+p {
+  font-family: "Poppins";
+  font-weight: 200;
+  width: fit-content;
+  max-width: 1000px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 3px;
+}
+
+#intro {
+  max-width: 1000px;
+  padding: 0px 10px;
+}
+
+a {
+  color: #e7ebee;
+}
+
+a:visited {
+  color: #a1a1a1;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu p {
+  margin: 0;
+  padding: 0 20px;
+}
+
+#instagram-icon {
+  fill: #e7ebee;
+  width: 22px;
+  height: 22px;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+#contact-text {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  max-width: 1000px;
+}
+
+#credits {
+  width: 100%;
+}
+
+.role {
+  font-weight: 600;
+  margin-top: 15px;
+}
