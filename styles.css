@@ -61,7 +61,7 @@ h1 {
 }
 
 #title-container {
-  background-image: linear-gradient(0deg, #00000000, black 80%);
+  /*background-image: linear-gradient(0deg, #00000000, black 80%);*/
   width: 100%;
   height: 2rem;
 }
@@ -88,8 +88,8 @@ h1 {
   height: 130%;
   width: 100%;
   object-fit: cover;
-  object-position: 50% 0%;
-  filter: brightness(0.75);
+  object-position: 20% 0%;
+  filter: brightness(0.5) blur(50px) hue-rotate(-180deg);
 }
 
 #image-before {
@@ -182,6 +182,7 @@ p {
   font-weight: 500;
   margin-bottom: 1rem;
   text-align: center;
+  padding: 0rem 1rem;
 }
 
 a {
